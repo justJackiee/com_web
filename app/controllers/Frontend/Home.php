@@ -7,6 +7,6 @@ class Home extends Controller {
             'description' => 'A custom built PHP MVC book selling website.'
         ];
 
-        $this->view('frontend/index', $data);
+        $this->view_layout('frontend/index', 'frontend', $data);
     }
 }
